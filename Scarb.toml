@@ -1,0 +1,12 @@
+[package]
+name = "burnbutton_factory"
+version = "0.1.0"
+edition = "2024_07"
+description = "Permissionless Burn-as-a-Service & Skill-Based Countdown Protocol on Starknet"
+license = "MIT"
+
+[dependencies]
+starknet = ">=2.8.0"
+
+[[target.starknet-contract]]
+sierra = true
